@@ -1,0 +1,325 @@
+body {
+  margin-right: 40px;
+  margin-left: 40px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+a {
+  position: relative;
+  text-decoration: none;
+  font-size: 24px;
+  letter-spacing: 5px;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #333333;
+}
+
+
+header {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 1;
+}
+
+
+.navBar {
+  vertical-align: top;
+  padding: 2%;
+}
+
+
+ul {
+  margin-left: auto;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  overflow: hidden;
+  vertical-align: auto;
+  align-items: center;
+  background-color: white;
+}
+
+
+.hero-background {
+  position: relative;
+  margin-left: 250px;
+  padding: 25%;
+  background-color: #f4f1f0;
+}
+
+
+.profilePic {
+  position: absolute;
+  margin-left: 60%;
+  width: 685px;
+  height: auto;
+  top: 107px;
+}
+
+
+.Hello {
+  position: absolute;
+  width: 135px;
+  height: 72px;
+  left: 100px;
+  top: 225px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 72px;
+  color: #333333;
+}
+
+
+.Manvir {
+  position: absolute;
+  width: 550px;
+  height: 150px;
+  left: 100px;
+  top: 287px;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 150px;
+  color: #333333;
+}
+
+
+.career-name {
+  position: absolute;
+  width: 376px;
+  height: 72px;
+  left: 100px;
+  top: 427px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 72px;
+  color: #333333;
+}
+
+
+.my-intro {
+  position: absolute;
+  width: 647px;
+  height: 117px;
+  left: 100px;
+  top: 524px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 39px;
+  color: #333333;
+}
+
+
+.btn-style {
+  background: #D4C5B8;
+  border-radius: 10px;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+  padding: 1%;
+}
+
+
+.button1 {
+  position: absolute;
+  left: 100px;
+  top: 707px;
+}
+
+
+.button2 {
+  position: absolute;
+  left: 450px;
+  top: 707px;
+}
+
+
+.button-hover:hover {
+  background-color: #A29289;
+  color: white;
+}
+
+
+.Projects {
+  position: relative;
+  margin-top: 10%;
+  left: 100px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+
+.projectName {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  color: #333333;
+}
+
+
+.projectInfo {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  color: #333333;
+}
+
+
+.Project {
+  position: relative;
+  display: grid;
+  left: 100px;
+  grid-template-columns: repeat(2, auto);
+  gap: 3em;
+  margin-top: 8em;
+  margin-bottom: 8em;
+}
+
+
+.content {
+  text-align: left;
+  width: 25em;
+}
+
+
+.back-top {
+  position: fixed;
+  bottom: 20px;
+  left: 90%;
+  display: none;
+  padding: 75px;
+}
+
+
+footer {
+  position: relative;
+  bottom: 0;
+  background-color: white;
+}
+
+
+.Footerline {
+  position: relative;
+  background-color: white;
+  margin-top: 100px;
+  margin-bottom: 25px;
+  border: 2px solid #333333;
+}
+
+
+.aboutMe {
+  margin-bottom: 10%;
+}
+
+
+.aboutmePic {
+  position: relative;
+  width: 685px;
+  height: auto;
+  margin-top: 210px;
+}
+
+
+.aboutmeTitle {
+  position: absolute;
+  left: 12%;
+  top: 15%;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 75px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+
+.myInfo {
+  position: relative;
+  display: grid;
+  margin-left: 100px;
+  margin-right: 100px;
+  top: 50px;
+  grid-template-columns: repeat(2, auto);
+  gap: 3em;
+  margin-bottom: 8em;
+}
+
+
+.content-myinfo {
+  position: relative;
+  margin-top: 200px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  color: #333333;
+  margin-left: 10%;
+}
+
+
+.MyUXSkills {
+  position: relative;
+  width: 100%;
+  height: 75px;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 75px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+
+.SkillsflexContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 20% 0px 20%;
+  margin: auto;
+}
+
+
+.div-skills {
+  width: 33%;
+  background: #F4F1F0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  height: 300px;
+  margin: 2%;
+}
+
+
+.skills-content {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1%;
+}
+
+
+h3 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #333333;
+  margin: 5%;
+}
+
+
+.p-skills {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  font-feature-settings: 'calt' off, 'kern' off;
+  color: #767676;
+}
