@@ -323,3 +323,114 @@ h3 {
   font-feature-settings: 'calt' off, 'kern' off;
   color: #767676;
 }
+
+.disability-home {
+  position: relative;
+  display: grid;
+  margin-left: 7%;
+  margin-right: 7%;
+  top: 10%;
+  grid-template-columns: repeat(2, auto);
+  gap: 3em;
+}
+
+.disabilitysa-sec{
+  height: 80vh;
+  background: #F4F1F0;
+}
+
+.content-case-study-header {
+  text-align: left;
+  margin-top: 25%;
+  width: 25em;
+}
+
+.overview-div {
+  padding: 2%;
+}
+
+.overview-body {
+  position: relative;
+  display: grid;
+  margin-left: 5%;
+  margin-right: 5%;
+  grid-template-columns: repeat(2, auto);
+}
+
+.case-study-pic {
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 25%;
+}
+
+.accordion-body {
+  font-size: 1.25rem;
+  padding: 2%;
+}
+
+.bold-cs {
+  font-weight: bold;
+}
+
+.heading-cs {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.overview-title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.user-research-pic {
+  display: block;
+  width: 65vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.accordion-button {
+  background-color: #F4F1F0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  outline: #333333;
+  font-size: .75em;
+}
+
+.accordian-desc {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+
+@media only screen and (max-width:900px) {
+  .disabilitysa-sec{
+    height: 100vh;
+    background: #F4F1F0;
+  }
+
+  .overview-body {
+    position: relative;
+    display: grid;
+    margin-left: 5%;
+    margin-right: 5%;
+    grid-template-columns: repeat(1, auto);
+  }
+
+  .disability-home {
+    position: relative;
+    display: grid;
+    margin-left: 100px;
+    margin-right: 100px;
+    top: 50px;
+    grid-template-columns: repeat(1, auto);
+    gap: 3em;
+    margin-bottom: 8em;
+  }
+
+  .case-study-pic {
+    width: 100vw;
+    max-width: 75%;
+    margin-top: 25%;
+  }
+
+}
